@@ -38,9 +38,14 @@ const Button = styled.button`
 	background-color: #f0b322;
 	border-radius: 6px;
 	border: none;
+	cursor: pointer;
+	line-height: inherit;
 
 	&:hover {
 		background-color: #f0920e;
+	}
+	&focus {
+		outline: none;
 	}
 `;
 
